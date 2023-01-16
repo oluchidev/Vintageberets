@@ -1,0 +1,40 @@
+
+.form-input{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.text-input input, .number-input input, .date-input input{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.text-input, .number-input,.date-input{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.form-controls{
+margin-right: 10px;
+margin-bottom: 20px;
+}
+
+.form-controls button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    float: right;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}

@@ -1,0 +1,32 @@
+
+
+.exp-container{
+    width: 80%;
+    margin: auto;
+   color:white;
+    border: 1px solid rgba(207, 195, 195, 0.6);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.exp-title-price{
+    width: 50%;
+    color: white;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+.price_prop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    border: white;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 5px; 
+    text-align: center;
+}
